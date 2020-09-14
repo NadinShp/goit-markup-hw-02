@@ -139,22 +139,40 @@ body {
 /*===============END OUR TEAM===================== */
 
 /*=================FOOTER====================== */
-.footer-color-link {
+.address-footer-link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
   color: var(--footer-color-link);
 }
-.footer-color-address-link {
+.address-footer-link:hover,
+.address-footer-link:focus {
   color: var(--color-modal-btn-address);
 }
-.footer-color-address-link:hover,
-.footer-color-address-link:focus {
-  color: var(--accent-color);
-}
+
 /*=================END FOOTER====================== */
 
 /*=================PORTFOLIO====================== */
 .navigation-list-link-portfolio,
 .navigation-list-link-portfolio:hover {
   color: var(--accent-color);
+}
+.our-work-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: vae(--title-color);
+}
+.our-work-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+  color: var(--description-color);
 }
 .tabs-list-link {
   font-weight: 500;
