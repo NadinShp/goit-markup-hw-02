@@ -7,6 +7,7 @@
   --color-logo-dark-theme: #000000;
   --footer-color-link: rgba(255, 255, 255, 0.6);
   --color-modal-btn-address: #ffffff;
+  --footer-color: #2f303a;
 }
 body {
   font-family: var(--main-font);
@@ -151,6 +152,9 @@ body {
 .address-footer-link:hover,
 .address-footer-link:focus {
   color: var(--color-modal-btn-address);
+}
+.footer {
+  background-color: var(--footer-color);
 }
 
 /*=================END FOOTER====================== */
