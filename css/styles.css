@@ -160,8 +160,7 @@ body {
 /*=================END FOOTER====================== */
 
 /*=================PORTFOLIO====================== */
-.navigation-list-link-portfolio,
-.navigation-list-link-portfolio:hover {
+.activ-navigation-tab {
   color: var(--accent-color);
 }
 .our-work-title {
